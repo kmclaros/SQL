@@ -1,0 +1,28 @@
+Objetivo: Diseñar un modelo entidad-relación (ER) para un sistema de gestión de biblioteca que incluya al menos cinco entidades relevantes. Las entidades deben reflejar los componentes esenciales del sistema, tales como libros, autores, préstamos, usuarios y categorías. El modelo debe identificar claramente las relaciones entre las entidades y especificar los atributos clave de cada entidad. El diseño debe ser entregado en formato digital (PDF o imagen).
+
+Instrucciones Detalladas:
+
+Descripción del Sistema: Imagina un sistema de gestión de biblioteca donde se deben administrar diversas entidades como libros, autores, usuarios, categorías y préstamos. Cada entidad tiene sus propios atributos y se relaciona con otras entidades de maneras específicas.
+Identificación de Entidades y Atributos Clave:
+Libros: Incluye atributos como ID_Libro (clave primaria), Título, Año_Publicación, ID_Autor (clave foránea) y ID_Categoría (clave foránea).
+Autores: Incluye atributos como ID_Autor (clave primaria), Nombre, Apellido y Nacionalidad.
+Préstamos: Incluye atributos como ID_Préstamo (clave primaria), Fecha_Préstamo, Fecha_Devolución, ID_Libro (clave foránea) y ID_Usuario (clave foránea).
+Usuarios: Incluye atributos como ID_Usuario (clave primaria), Nombre, Apellido, Dirección, Teléfono y Email.
+Categorías: Incluye atributos como ID_Categoría (clave primaria) y Nombre.
+Establecimiento de Relaciones:
+Define que un autor puede escribir muchos libros (relación 1).
+Determina que un libro pertenece a una categoría (relación N:1).
+Un usuario puede tener muchos préstamos (relación 1).
+Cada préstamo está asociado a un libro y un usuario (relación N:1).
+Representación Visual del Modelo:
+Utiliza una herramienta de diseño de diagramas ER, como draw.io, Lucidchart o una similar, para crear el modelo.
+Dibuja cada entidad y añade sus atributos clave.
+Usa líneas o flechas para conectar las entidades, indicando las relaciones entre ellas.
+Añade cardinalidades para especificar la naturaleza de las relaciones (1, N:1).
+Exportación y Entrega:
+Una vez que el modelo esté completo, exporta el diagrama en formato PDF o imagen.
+Revisa el archivo exportado para asegurarte de que toda la información sea clara y esté correctamente representada.
+Consideraciones Finales:
+Asegúrate de que el modelo sea coherente y fácil de entender.
+Verifica que todas las entidades relevantes del sistema de gestión de biblioteca estén incluidas y correctamente relacionadas.
+Mantén un diseño limpio y organizado para facilitar la lectura y comprensión del diagrama.
